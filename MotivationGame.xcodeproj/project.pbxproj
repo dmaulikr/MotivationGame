@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09B6722D1D3E73EB0050D857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B6722C1D3E73EB0050D857 /* AppDelegate.swift */; };
+		09B6722F1D3E73EB0050D857 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B6722E1D3E73EB0050D857 /* ViewController.swift */; };
+		09B672321D3E73EB0050D857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B672301D3E73EB0050D857 /* Main.storyboard */; };
+		09B672351D3E73EB0050D857 /* MotivationGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09B672331D3E73EB0050D857 /* MotivationGame.xcdatamodeld */; };
+		09B672371D3E73EB0050D857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B672361D3E73EB0050D857 /* Assets.xcassets */; };
+		09B6723A1D3E73EB0050D857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B672381D3E73EB0050D857 /* LaunchScreen.storyboard */; };
+		09B672451D3E73EB0050D857 /* MotivationGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B672441D3E73EB0050D857 /* MotivationGameTests.swift */; };
+		09B672501D3E73EB0050D857 /* MotivationGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B6724F1D3E73EB0050D857 /* MotivationGameUITests.swift */; };
+		09B6725E1D3EEFC20050D857 /* Peg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B6725D1D3EEFC20050D857 /* Peg.swift */; };
+		09B672601D3FCE7A0050D857 /* PegCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B6725F1D3FCE7A0050D857 /* PegCollectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09B672411D3E73EB0050D857 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09B672211D3E73EB0050D857 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09B672281D3E73EB0050D857;
+			remoteInfo = MotivationGame;
+		};
+		09B6724C1D3E73EB0050D857 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09B672211D3E73EB0050D857 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09B672281D3E73EB0050D857;
+			remoteInfo = MotivationGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09B672291D3E73EB0050D857 /* MotivationGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotivationGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B6722C1D3E73EB0050D857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09B6722E1D3E73EB0050D857 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09B672311D3E73EB0050D857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09B672341D3E73EB0050D857 /* MotivationGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MotivationGame.xcdatamodel; sourceTree = "<group>"; };
+		09B672361D3E73EB0050D857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09B672391D3E73EB0050D857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09B6723B1D3E73EB0050D857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B672401D3E73EB0050D857 /* MotivationGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotivationGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B672441D3E73EB0050D857 /* MotivationGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationGameTests.swift; sourceTree = "<group>"; };
+		09B672461D3E73EB0050D857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B6724B1D3E73EB0050D857 /* MotivationGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotivationGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B6724F1D3E73EB0050D857 /* MotivationGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationGameUITests.swift; sourceTree = "<group>"; };
+		09B672511D3E73EB0050D857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B6725D1D3EEFC20050D857 /* Peg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Peg.swift; sourceTree = "<group>"; };
+		09B6725F1D3FCE7A0050D857 /* PegCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PegCollectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09B672261D3E73EB0050D857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B6723D1D3E73EB0050D857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B672481D3E73EB0050D857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B672201D3E73EB0050D857 = {
+			isa = PBXGroup;
+			children = (
+				09B6722B1D3E73EB0050D857 /* MotivationGame */,
+				09B672431D3E73EB0050D857 /* MotivationGameTests */,
+				09B6724E1D3E73EB0050D857 /* MotivationGameUITests */,
+				09B6722A1D3E73EB0050D857 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09B6722A1D3E73EB0050D857 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09B672291D3E73EB0050D857 /* MotivationGame.app */,
+				09B672401D3E73EB0050D857 /* MotivationGameTests.xctest */,
+				09B6724B1D3E73EB0050D857 /* MotivationGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09B6722B1D3E73EB0050D857 /* MotivationGame */ = {
+			isa = PBXGroup;
+			children = (
+				09B6722C1D3E73EB0050D857 /* AppDelegate.swift */,
+				09B6722E1D3E73EB0050D857 /* ViewController.swift */,
+				09B6725F1D3FCE7A0050D857 /* PegCollectionViewController.swift */,
+				09B672301D3E73EB0050D857 /* Main.storyboard */,
+				09B6725D1D3EEFC20050D857 /* Peg.swift */,
+				09B672361D3E73EB0050D857 /* Assets.xcassets */,
+				09B672381D3E73EB0050D857 /* LaunchScreen.storyboard */,
+				09B6723B1D3E73EB0050D857 /* Info.plist */,
+				09B672331D3E73EB0050D857 /* MotivationGame.xcdatamodeld */,
+			);
+			path = MotivationGame;
+			sourceTree = "<group>";
+		};
+		09B672431D3E73EB0050D857 /* MotivationGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				09B672441D3E73EB0050D857 /* MotivationGameTests.swift */,
+				09B672461D3E73EB0050D857 /* Info.plist */,
+			);
+			path = MotivationGameTests;
+			sourceTree = "<group>";
+		};
+		09B6724E1D3E73EB0050D857 /* MotivationGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09B6724F1D3E73EB0050D857 /* MotivationGameUITests.swift */,
+				09B672511D3E73EB0050D857 /* Info.plist */,
+			);
+			path = MotivationGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09B672281D3E73EB0050D857 /* MotivationGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B672541D3E73EB0050D857 /* Build configuration list for PBXNativeTarget "MotivationGame" */;
+			buildPhases = (
+				09B672251D3E73EB0050D857 /* Sources */,
+				09B672261D3E73EB0050D857 /* Frameworks */,
+				09B672271D3E73EB0050D857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotivationGame;
+			productName = MotivationGame;
+			productReference = 09B672291D3E73EB0050D857 /* MotivationGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09B6723F1D3E73EB0050D857 /* MotivationGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B672571D3E73EB0050D857 /* Build configuration list for PBXNativeTarget "MotivationGameTests" */;
+			buildPhases = (
+				09B6723C1D3E73EB0050D857 /* Sources */,
+				09B6723D1D3E73EB0050D857 /* Frameworks */,
+				09B6723E1D3E73EB0050D857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09B672421D3E73EB0050D857 /* PBXTargetDependency */,
+			);
+			name = MotivationGameTests;
+			productName = MotivationGameTests;
+			productReference = 09B672401D3E73EB0050D857 /* MotivationGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09B6724A1D3E73EB0050D857 /* MotivationGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B6725A1D3E73EB0050D857 /* Build configuration list for PBXNativeTarget "MotivationGameUITests" */;
+			buildPhases = (
+				09B672471D3E73EB0050D857 /* Sources */,
+				09B672481D3E73EB0050D857 /* Frameworks */,
+				09B672491D3E73EB0050D857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09B6724D1D3E73EB0050D857 /* PBXTargetDependency */,
+			);
+			name = MotivationGameUITests;
+			productName = MotivationGameUITests;
+			productReference = 09B6724B1D3E73EB0050D857 /* MotivationGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09B672211D3E73EB0050D857 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LaLiza;
+				TargetAttributes = {
+					09B672281D3E73EB0050D857 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					09B6723F1D3E73EB0050D857 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 09B672281D3E73EB0050D857;
+					};
+					09B6724A1D3E73EB0050D857 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 09B672281D3E73EB0050D857;
+					};
+				};
+			};
+			buildConfigurationList = 09B672241D3E73EB0050D857 /* Build configuration list for PBXProject "MotivationGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09B672201D3E73EB0050D857;
+			productRefGroup = 09B6722A1D3E73EB0050D857 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09B672281D3E73EB0050D857 /* MotivationGame */,
+				09B6723F1D3E73EB0050D857 /* MotivationGameTests */,
+				09B6724A1D3E73EB0050D857 /* MotivationGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09B672271D3E73EB0050D857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B6723A1D3E73EB0050D857 /* LaunchScreen.storyboard in Resources */,
+				09B672371D3E73EB0050D857 /* Assets.xcassets in Resources */,
+				09B672321D3E73EB0050D857 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B6723E1D3E73EB0050D857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B672491D3E73EB0050D857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09B672251D3E73EB0050D857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B6725E1D3EEFC20050D857 /* Peg.swift in Sources */,
+				09B672601D3FCE7A0050D857 /* PegCollectionViewController.swift in Sources */,
+				09B6722F1D3E73EB0050D857 /* ViewController.swift in Sources */,
+				09B672351D3E73EB0050D857 /* MotivationGame.xcdatamodeld in Sources */,
+				09B6722D1D3E73EB0050D857 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B6723C1D3E73EB0050D857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B672451D3E73EB0050D857 /* MotivationGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B672471D3E73EB0050D857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B672501D3E73EB0050D857 /* MotivationGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09B672421D3E73EB0050D857 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09B672281D3E73EB0050D857 /* MotivationGame */;
+			targetProxy = 09B672411D3E73EB0050D857 /* PBXContainerItemProxy */;
+		};
+		09B6724D1D3E73EB0050D857 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09B672281D3E73EB0050D857 /* MotivationGame */;
+			targetProxy = 09B6724C1D3E73EB0050D857 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09B672301D3E73EB0050D857 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09B672311D3E73EB0050D857 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09B672381D3E73EB0050D857 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09B672391D3E73EB0050D857 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09B672521D3E73EB0050D857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09B672531D3E73EB0050D857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09B672551D3E73EB0050D857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MotivationGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.underdog.MotivationGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09B672561D3E73EB0050D857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MotivationGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.underdog.MotivationGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		09B672581D3E73EB0050D857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MotivationGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.underdog.MotivationGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotivationGame.app/MotivationGame";
+			};
+			name = Debug;
+		};
+		09B672591D3E73EB0050D857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MotivationGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.underdog.MotivationGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotivationGame.app/MotivationGame";
+			};
+			name = Release;
+		};
+		09B6725B1D3E73EB0050D857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MotivationGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.underdog.MotivationGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MotivationGame;
+			};
+			name = Debug;
+		};
+		09B6725C1D3E73EB0050D857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MotivationGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.underdog.MotivationGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MotivationGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09B672241D3E73EB0050D857 /* Build configuration list for PBXProject "MotivationGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B672521D3E73EB0050D857 /* Debug */,
+				09B672531D3E73EB0050D857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09B672541D3E73EB0050D857 /* Build configuration list for PBXNativeTarget "MotivationGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B672551D3E73EB0050D857 /* Debug */,
+				09B672561D3E73EB0050D857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09B672571D3E73EB0050D857 /* Build configuration list for PBXNativeTarget "MotivationGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B672581D3E73EB0050D857 /* Debug */,
+				09B672591D3E73EB0050D857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09B6725A1D3E73EB0050D857 /* Build configuration list for PBXNativeTarget "MotivationGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B6725B1D3E73EB0050D857 /* Debug */,
+				09B6725C1D3E73EB0050D857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09B672331D3E73EB0050D857 /* MotivationGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09B672341D3E73EB0050D857 /* MotivationGame.xcdatamodel */,
+			);
+			currentVersion = 09B672341D3E73EB0050D857 /* MotivationGame.xcdatamodel */;
+			path = MotivationGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 09B672211D3E73EB0050D857 /* Project object */;
+}
